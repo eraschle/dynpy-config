@@ -1,0 +1,4 @@
+#+title: Readme
+
+* dynpy-config
+Small UI for configuring Embed Python for Dynamo.
