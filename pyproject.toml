@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dynpy"
+version = "0.1.0"
+description = "Python configuration for Dynamo..."
+authors = ["Erich Raschle <erichraschle@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+ruff = "^0.4.5"
+python-lsp-ruff = "^2.2.1"
+isort = "^5.13.2"
+autopep8 = "^2.1.1"
+pytest = "^8.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
